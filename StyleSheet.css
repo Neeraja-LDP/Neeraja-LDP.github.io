@@ -35,3 +35,12 @@
 .mytabs input[type="radio"]:checked + label + .tab {
     display: block;
 }
+
+.mytabs .tab #LandingImage {
+    width: 400px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
