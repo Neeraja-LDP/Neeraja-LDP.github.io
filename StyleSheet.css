@@ -1,2 +1,37 @@
 ﻿body {
+    background-color: grey;
+    font-family: 'Times New Roman';
+}
+
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 25px;
+}
+
+.mytabs input[type="radio"] {
+    display: none;
+}
+
+.mytabs label {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 150px;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mytabs .tab {
+    width: 100%;
+    padding-left: 20px;
+    background-color: floralwhite;
+    order: 1;
+    display: none;
+}
+
+.mytabs input[type="radio"]:checked + label + .tab {
+    display: block;
 }
